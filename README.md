@@ -1,7 +1,7 @@
 🛒 Ecommerce_MicroservicesArchitecture
 
 E-Commerce Microservices project built with Spring Boot, Spring Cloud, Docker, and Kubernetes.
-Features: service discovery, API gateway, messaging with Kafka/RabbitMQ, security with Keycloak, and observability with Zipkin & Micrometer.
+Includes service discovery, API gateway, messaging with Kafka/RabbitMQ, security with Keycloak, and observability with Zipkin & Micrometer.
 
 📖 Spring Boot Microservices eCommerce Project
 
@@ -45,6 +45,6 @@ Security: Keycloak, OAuth2, JWT
 
 Databases: PostgreSQL, MongoDB
 
-Infra: Docker, Kubernetes (K8s), Eureka
+Infrastructure: Docker, Kubernetes (K8s), Eureka
 
 Monitoring: Zipkin, Micrometer
