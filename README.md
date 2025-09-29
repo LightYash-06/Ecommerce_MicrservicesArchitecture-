@@ -1,50 +1,26 @@
-🛒 Ecommerce_MicroservicesArchitecture
+# 🛍 Ecommerce Microservices
 
-E-Commerce Microservices project built with Spring Boot, Spring Cloud, Docker, and Kubernetes.
-Includes service discovery, API gateway, messaging with Kafka/RabbitMQ, security with Keycloak, and observability with Zipkin & Micrometer.
+☁ Cloud-native e-commerce platform using **Spring Boot, Spring Cloud, Kubernetes, Docker, and Kafka**.  
 
-📖 Spring Boot Microservices eCommerce Project
+🛍 **Microservices**: Product Catalog, User Authentication, Order Management, and Payment Processing.  
+🔒 Integrated **Spring Security, Eureka, and Zipkin** for **service discovery, security, and distributed tracing** ensuring **scalability & resilience**.  
 
-This repository contains a demo eCommerce platform built with Java Spring Boot using a microservices architecture.
-It is inspired by the Spring Boot Microservices with Spring Cloud, Docker & Kubernetes course.
+---
 
-🚀 Features
+## 🛠️ Tech Stack  
+- **Backend**: Java, Spring Boot, Spring Cloud  
+- **Messaging**: Apache Kafka  
+- **Databases**: MySQL / PostgreSQL  
+- **Security**: Spring Security, OAuth2, JWT  
+- **DevOps**: Docker, Kubernetes  
+- **Monitoring**: Zipkin, Sleuth  
 
-Microservices: Product, Order, User/Auth, Payment
+---
 
-API Gateway with Spring Cloud Gateway
+## ✨ Features  
+- ✅ Catalog, order, payment & authentication services  
+- ✅ Secure JWT-based authentication  
+- ✅ Event-driven microservices with Kafka  
+- ✅ Distributed tracing with Zipkin  
+- ✅ Scalable deployments with Kubernetes  
 
-Service Discovery using Eureka
-
-Messaging & Events with Kafka and RabbitMQ
-
-Security: OAuth2 & JWT with Keycloak
-
-Databases: PostgreSQL & MongoDB
-
-Resilience & Fault Tolerance with Resilience4J
-
-Observability: Zipkin, Micrometer
-
-Containerization & Orchestration: Docker + Kubernetes
-
-🏗️ Architecture
-Client → API Gateway → Microservices (Product, Order, Payment, User)  
-       ↳ Service Discovery (Eureka)  
-       ↳ Messaging (Kafka/RabbitMQ)  
-       ↳ Security (Keycloak, JWT)  
-       ↳ Observability (Zipkin, Micrometer)  
-
-🛠️ Tech Stack
-
-Backend: Spring Boot, Spring Cloud
-
-Messaging: Kafka, RabbitMQ
-
-Security: Keycloak, OAuth2, JWT
-
-Databases: PostgreSQL, MongoDB
-
-Infrastructure: Docker, Kubernetes (K8s), Eureka
-
-Monitoring: Zipkin, Micrometer
